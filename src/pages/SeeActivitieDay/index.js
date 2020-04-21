@@ -82,7 +82,7 @@ export default class SeeActivitieDay extends React.Component{
                     <Divider style={{margin: 16}}/>
                     <ContainerDescription>
                         <Description>{item.description}</Description>
-                    </ContainerDescription>
+                    </ContainerDescription> 
                     <ContainerBtn>
                         <Buttom onPress={() => this.remove(item)}>
                             <Icon name='delete' size={30} color='red' />
